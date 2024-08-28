@@ -1,4 +1,4 @@
-class overlapCoefficient:
+class OverlapCoefficient:
 
     """
     A class used to represent and compute the Overlap Coefficient between two strings.
