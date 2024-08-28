@@ -61,7 +61,7 @@ class overlapCoefficient:
 
         overlapCoeff = 1 - overlapIndex
 
-        return overlapCoeff;
+        return overlapCoeff
 
 
 
