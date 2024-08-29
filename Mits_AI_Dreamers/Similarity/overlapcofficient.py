@@ -57,9 +57,8 @@ class overlapCoefficient:
 
         intersectionLength = len(intersection)
 
-        overlapIndex = intersectionLength / min(string1length,string2length)
+        overlapCoeff = intersectionLength / min(string1length,string2length)
 
-        overlapCoeff = 1 - overlapIndex
 
         return overlapCoeff
 

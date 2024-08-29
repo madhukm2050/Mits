@@ -40,7 +40,7 @@ class JaccardCoefficient:
 
         Returns
         -------
-        float
+        int
            The Jaccard Coefficient between the two sets of characters.
         """
         intersection = self.string1.intersection(self.string2)
@@ -50,9 +50,7 @@ class JaccardCoefficient:
 
         unionLength = len(union)
 
-        jaccardIndex = intersectionLength/unionLength
-
-        jaccardCoeff = 1- jaccardIndex
+        jaccardCoeff = intersectionLength/unionLength
 
         return jaccardCoeff
 
