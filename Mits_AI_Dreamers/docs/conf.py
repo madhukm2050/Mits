@@ -8,7 +8,7 @@
 
 import os
 import sys
-sys.path.insert(0,os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../'))
 scripts=r'C:\Users\prane\PycharmProjects'
 if scripts not in sys.path:
     sys.path.append(scripts)

@@ -1,0 +1,7 @@
+Similarity
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   Similarity
