@@ -54,8 +54,10 @@ class HammingDistance:
             if str1[i] != str2[i]:
                 distance+=1
 
-        return distance
+        return self.printdistance(str1,str2,distance)
 
+    def printdistance(self, string1, string2, distance):
+        print("The jaccordCoefficent between the strings",string1, "and ",string2," is ",distance)
 
 
 
