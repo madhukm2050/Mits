@@ -19,7 +19,7 @@ class HammingDistance:
         Initializes the HammingDistance class with two strings.
 
         Parameters
-        ----------
+        -----------
         string1 : str
             The first string for comparison.
         string2 : str
