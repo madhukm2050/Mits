@@ -36,12 +36,15 @@ class HammingDistance:
         corresponding characters in the two strings are different. If the lengths
         of the two strings are not equal, an error message is returned.
 
+        Parameters
+        ----------
+        None
+
         Returns
         -------
-        int
-            The Hamming Distance between the two strings.
         str
-            An error message if the lengths of the strings are not equal.
+            A message with the Hamming Distance between the two strings, or an error
+            message if the lengths of the strings are not equal.
         """
         str1 = self.string1
         str2 = self.string2
@@ -56,7 +59,24 @@ class HammingDistance:
 
         return self.printdistance(str1,str2,distance)
 
+
     def printdistance(self, string1, string2, distance):
+        """
+        Prints the Hamming Distance between the two strings.
+
+        Parameters
+        ----------
+        string1 : str
+            The first string used in the comparison.
+        string2 : str
+            The second string used in the comparison.
+        distance : int
+            The computed Hamming Distance between the two strings.
+
+        Returns
+        -------
+        None
+        """
         print("The jaccordCoefficent between the strings",string1, "and ",string2," is ",distance)
 
 
