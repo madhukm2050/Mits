@@ -5,7 +5,7 @@ class HammingDistance:
     Attributes
     ----------
     string1 : str
-        The first string for comparison..
+        The first string for comparison.
     string2 : str
         The second string for comparison.
 
