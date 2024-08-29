@@ -54,6 +54,3 @@ class JaccardCoefficient:
 
         return jaccardCoeff
 
-j = JaccardCoefficient("madhu","madhu")
-print(j.findJaccardCoefficient())
-
