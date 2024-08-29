@@ -1,4 +1,3 @@
-
 import setuptools
 
 with open('README.md', 'r') as fh:
@@ -6,16 +5,16 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='Mits_AI_Dreamers',
-    version='2024.8.5',
+    version='2024.0.1',
     author='Madhu Praneeth Lokesh',
-    author_email='madhuk2050@gmail.com',
-    description='This is Hamming distance,jaccord cofficient,overlap',
+    author_email='lokeshreddy2680@gmail.com',
+    description='This is Hamming distance, Jaccard coefficient, overlap',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
-    url='https://github.com/madhukm2050/Mits_AI_Dreamers/tree/main',
-    license='GPLv3',
-    install_requires=[            # All necessary packages utilized by our PAMI software
+    url='https://github.com/madhukm2050/Mits_AI_Dreamers',
+    license='',
+    install_requires=[
         'psutil',
         'pandas',
         'plotly',
@@ -27,7 +26,6 @@ setuptools.setup(
         'numpy',
         'sphinx',
         'sphinx-rtd-theme',
-        'validators',
         'discord.py',
         'networkx',
         'deprecated',
@@ -39,7 +37,7 @@ setuptools.setup(
         'all': ['cupy', 'pycuda', 'pyspark', 'twine', 'setuptools', 'build']
     },
     classifiers=[
-        'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+        'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',

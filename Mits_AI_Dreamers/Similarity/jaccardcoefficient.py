@@ -10,6 +10,7 @@ class JaccardCoefficient:
             The set of unique characters from the second string.
 
         Methods
+
         -------
         findJaccardCoefficient():
             Computes and returns the Jaccard Coefficient between the two sets of characters.
